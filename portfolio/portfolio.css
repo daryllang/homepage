@@ -1,0 +1,177 @@
+html {
+   font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 14px;
+	color:#000;
+	background-color: #ffffff;
+       }
+       
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 100%;
+	margin: 0px;
+	width: 100%;
+	clear: both;
+	}
+
+a:link {
+	color: #e00;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #900;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #912d2d;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #912d2d;
+	text-decoration: underline;
+}
+
+h1 {
+    font-weight: bold;
+	font-size: 2.5em;
+	padding-top: 0.75em;
+	padding-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: bold;
+	font-size: 1.8em;
+	padding: 10px;
+        margin: 20px 0 10px 0;
+	clear: both;
+	width: 100%;
+	border-top: 5px solid #999;
+	background-color: #eee;
+}
+
+h3 {
+	font-size: 1.4em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+h3 a:link, h3 a:visited {
+	text-decoration: underline;
+	color: #000;
+}
+
+h4 {
+	font-size: 1.1em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+h5 {
+	font-size: 1.1em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
+h6 {
+	font-size: 1em;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 10px;
+	padding-bottom: 0.2em;
+}
+
+ul {
+	padding-bottom: 0.2em;
+}
+
+
+.container {
+  position: relative;
+  display: block;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.textrectangle {	
+	position:relative;
+	font-size: 1em;
+	width: 95%;
+	max-width: 750px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  display: block;
+  clear: both;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 15px;
+}
+
+.column {
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  }
+
+
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.portfoliocell:after
+ {
+  display: table;
+  content: " ";
+}
+
+.container:after,
+.row:after,
+{
+  clear: both;
+}
+
+.portfoliocell {
+    border-bottom: 2px solid #ccc;
+	padding: 0px;
+    margin: 40px auto 40px auto;
+	width: 600px;
+	}
+
+img {
+border-color: #000;
+}
+
+.portfoliocell img:after {
+  clear: both;
+}
+
+.portfoliocell li {
+	list-style-position: inside;
+	}
+	
+.credits {
+font-size: 0.8em;
+}
